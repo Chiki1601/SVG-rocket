@@ -1,0 +1,74 @@
+#box {
+  position: absolute;
+  width: 550px;
+  height: 550px;
+  top: 50%;
+  left: 50%;
+  margin-top: -275px;
+  margin-left: -275px;
+}
+svg {
+  overflow: visible;
+}
+.red {
+  fill: #d83137;
+}
+.blue {
+  fill: #18a3d7;
+}
+.white {
+  fill: #e6e7e8;
+}
+.stick {
+  fill: #f4d5a3;
+}
+.stick-shdw {
+  fill: #d9b580;
+}
+.drip1 {
+  fill: #e6e7e8;
+  opacity: 0;
+}
+.drip2 {
+  fill: #18a3d7;
+  opacity: 0;
+}
+.drip3 {
+  fill: #d83137;
+  opacity: 0;
+}
+.shadow {
+  fill: url("#grad1");
+}
+.highlight {
+  fill: url("#grad2");
+}
+stop.g1 {
+  stop-color: #fff;
+  stop-opacity: 0;
+}
+stop.g2 {
+  stop-color: #43445d;
+  stop-opacity: 0;
+}
+stop.g3 {
+  stop-color: #ae2e3a;
+}
+stop.g4 {
+  stop-color: #fff;
+  stop-opacity: 0.2;
+}
+stop.g5 {
+  stop-color: #fff;
+  stop-opacity: 0.15;
+}
+stop.g6 {
+  stop-color: #fff;
+  stop-opacity: 0.2;
+}
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: #252532;
+}
